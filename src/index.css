@@ -1,0 +1,574 @@
+body{
+  margin:0;
+  background-color:rgb(19,18,18)
+}
+/*Navbar styling*/
+#navbar{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height:80px;
+    margin-top:-5px;
+    padding:0px 20px;
+    position:fixed;
+    left: 0;
+    right: 0;
+}
+.nav-container{
+    background-color: rgba(179,179,179,.1);
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 8px 0px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width:360px;
+    justify-content: center;
+    backdrop-filter: blur(18px);
+    margin-right:10px;
+}
+.nav-links{
+    list-style: none;
+    padding:10px 12px;
+    font-size:1rem;
+    font-weight:500;
+    font-family:"Karla" , sans-serif;
+}
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links:hover{
+    background-color:#f9fafb;
+    border-radius:12px;
+    box-shadow: rgb(204, 204, 204) 3px 3px 3px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 3px 1px inset;  
+    color:#222;
+}
+.nav-links:hover a {
+  color: black;
+}
+
+.a:hover {
+  color: #222;
+}
+.logo{
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  margin-left:20px;
+  font-weight:light;
+  background: linear-gradient( to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 83), rgb(235, 83, 83)); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+background-clip:text;
+}
+.mobile-menu {
+  display: none; 
+}
+
+/*Homepage styling*/
+
+#homepage{
+  height:100vh;
+  margin:0;
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homepage-bg{
+  width:100px;  
+}
+.homepage-description{
+display:flex;
+flex-direction: column; 
+align-items:center;
+justify-content: center;
+font-family: 'Markazi Text', serif;
+text-align: center;
+}
+.intro{
+font-size:80px;    
+margin:0;
+background: linear-gradient( to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 83), rgb(235, 83, 83)); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+background-clip:text;
+letter-spacing:0.3px;
+}
+.homepage-description >h4{
+font-weight: bold;
+font-size:36px;
+margin-top:10px;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+letter-spacing:1px;
+}
+.intro-quote{
+font-size: 40px; 
+margin-top:0px;
+}
+.homepage-btns{
+display: flex;
+align-items: center;
+justify-content:center;
+gap: 16px;
+
+}
+.home-btn{
+width: 160px;
+height: 55px;
+border-radius: 25px;
+border:none;
+font-size:18px;
+
+}
+.home-btn >a{
+text-decoration:none;
+color:white;
+}
+.work{
+background-color: transparent; 
+color:white;
+font-family:'Karla', serif;
+box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4);
+}
+.contact a{
+  color:rgb(19,18,18);
+  font-weight:bold;
+}
+.contact{
+color:black;
+box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4);
+background-color: white;
+font-family:'Karla', serif
+}
+
+/*About styling*/
+#about-section {
+padding-top: 10px;
+text-align: center;
+min-height:100vh;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.about-header{
+font-family:"Markazi Text" , serif;
+font-size:60px;
+text-transform: uppercase;
+background: linear-gradient( to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 83), rgb(235, 83, 83)); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+background-clip:text;
+letter-spacing:0.3px;
+}
+
+.about-description{
+line-height:1.6;
+margin: 0px 20px;
+background-color: transparent;
+border-radius: 12px;
+padding:20px ;
+max-width:650px;
+box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4);
+}
+.description-1{
+font-size: 20px;
+line-height: 1.8;
+color: white;
+margin-bottom: 20px;
+font-family: "Karla" , serif;
+}
+  
+.description-2 {
+font-size: 16px;
+line-height: 1.4;
+color: white;
+font-family: "Karla" , serif;
+}
+#about-section p {
+  margin-bottom: 15px;
+  }
+.Resume-btn{
+  background: transparent;
+  margin-top:10px;
+  width:130px;
+  height:auto;
+  padding:10px;
+  border-radius: 5px;
+  color:white;
+  border-image: linear-gradient(to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 83), rgb(235, 83, 83)); 
+   border-image-slice: 1;
+  background-clip: padding-box;
+  cursor: pointer;
+  font-family: "Karla" , sans-serif;
+  box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4); 
+}
+.Resume-btn{
+  font-size:18px;
+}
+/*Projects styling*/
+
+#Projects-section{
+  width:100%;
+  min-height:100vh;
+  padding-top: 2em;
+}
+#Projects-section >h1{
+  text-align: center;
+  font-size:60px;
+  font-family:"Markazi Text" , serif;
+  color:white;
+}
+.gradient-header{
+background: linear-gradient( to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 83), rgb(235, 83, 83)); 
+-webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+background-clip:text;
+letter-spacing:0.6px;
+}
+.projects-list{
+  display:flex;
+  gap:30px;
+  margin-bottom:20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top:50px;
+}
+.projects{
+    width:360px;
+    height:400px;
+    background-color: transparent;
+    border-radius: 25px;
+    font-family:"Karla" , serif;
+    color:white;
+    box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4);
+}
+.projects:hover{
+  padding:0.5rem;
+}
+.image-container {
+  position:relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 220px;
+  border-radius: 20px ;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  transition: .5s ease;
+  margin-top:20px;
+}
+.project-image{
+  width:310px;
+  height:220px;
+  border-radius: 15px ;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  object-fit: cover;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+ 
+}
+.image-container:hover .project-image {
+  opacity: 0.3;
+}
+
+.image-container:hover .middle {
+  opacity: 1;
+}
+.live-links{
+  background: black;
+  width:50%;
+  height:auto;
+  padding:10px;
+  border-radius: 50%;
+  cursor: pointer;
+  border:none;
+  font-family: "Karla" , sans-serif;
+  box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4);
+}
+.live-links >a{
+  font-size: 15px;
+  color:white;
+  text-decoration: none;
+}
+
+.fa-brands.fa-github ,.fa-solid.fa-eye{
+  font-size:20px;
+  color: white;
+  padding:0.5rem;
+}
+ .fa-solid.fa-eye:hover , .fa-brands.fa-github:hover{
+  padding:0.7rem;
+
+}
+.project-info{
+  width:320px;
+ text-align: center;
+ margin: auto;
+ margin-top:30px;
+ font-weight: 100;
+ line-height: 1.5rem;
+}
+.project-info>h1{
+color: white;
+
+}
+/*Contact me section*/
+#Contact-section{
+ min-height:100vh; 
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.contact-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.submission-div{
+  width:500px;
+  margin:auto;
+  margin-top:90px;
+}
+.submission-message{
+  font-size:50px;
+  font-family: "Markazi Text" , sans-serif;
+  color:white;
+  text-align: center;
+}
+.contact-header{
+  color:white;
+  font-family: "Markazi Text" , serif;
+  text-align: center;
+  font-size: 50px;
+  background:linear-gradient( to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 83), rgb(235, 83, 83));
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+-webkit-background-clip: text; 
+margin:0;
+padding-top:30px;
+}
+.contact-form {
+   background-color: transparent;
+   font-family: "Karla" , serif;
+    display:flex;
+    flex-direction: column;
+    width:400px;
+    height:280px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4);
+    color:white;
+    margin-top:40px;
+  }
+  form label {
+    display: block;
+    font-weight: bold;
+    margin:5px;
+    margin-left:0;
+    font-size:17px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+  }
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 8px;
+    margin:16px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: transparent;
+    font-family: "Karla" , sans-serif;
+    color:white;
+  }
+.submit-button{
+  background-color: transparent;
+  border-image: linear-gradient(to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 83), rgb(235, 83, 83));
+  border-image-slice: 1;
+  background-clip: padding-box;
+  cursor: pointer;
+  padding: 10px 20px; 
+  font-size: 16px; 
+  color: white; 
+  width:120px;
+  margin:auto;
+  border-radius: 130px;
+} 
+/*Footer Styling*/
+  .Footer{
+    display:flex;
+    flex-direction: row;
+    font-family: "Markazi Text" , serif;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    text-align: center; 
+  padding: 20px;
+  }
+  .footer-head{
+    font-weight:100;
+    color:white;
+    text-align: center;
+    font-size:26px;
+  }
+  .footer-head span{
+    background:linear-gradient( to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 83), rgb(235, 83, 83));
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+  }
+.social-links{
+  display: flex;
+  justify-content: center;
+  margin: 10px 5px;
+}
+.social-links i{
+  cursor:pointer;
+  color:rgb(214, 204, 204);
+  padding: 0.7rem;
+  margin: 10px;
+  border-radius: 15px;
+  font-size: 27px;
+  box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4);
+}
+@media only screen and (max-width: 500px) {
+  #navbar{
+    margin-top:0;
+  }
+  .nav-container {
+    display: none; 
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    cursor:pointer;
+    position:fixed;
+    right:20px;
+    top:0px;
+    background-color: rgb(19,18,18);
+    z-index:1000;
+  }
+  .mobile-menu i{
+   margin-bottom:20px;
+   font-size:20px;
+  }
+
+  .mobile-links {
+    width: 120px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content:center;
+    align-items:center;
+    margin-top:-140px;
+
+  }
+  .mobile-menu.open .mobile-links {
+    transform: translateX(0); 
+  }
+  .mobile-links a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Karla", serif;
+    font-size:22px;
+    padding:10px;
+  }
+  .social-icons{
+    display:flex;
+    flex-direction: row;
+    margin-top:-190px;
+  }
+  .social-icons i{
+    color:rgb(214, 204, 204);
+    padding: 0.7rem;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4);
+  }
+  .contact-form{
+    max-width:300px;
+  }
+}
+  @media screen and (max-width:780px){
+.intro{
+    font-size:70px;
+}
+.homepage-description{
+  margin: 20px 20px;
+}
+.homepage-description >h4{
+    font-size:30px;
+    }
+  .intro-quote{
+  font-size: 35px; 
+  margin-top:0px;
+  }
+  .home-btn{
+   width: 155px;
+   height: 50px;
+  font-size:16px;
+  }
+  .contact-header{
+    font-size:40px;
+  }
+  .contact-form{
+    width:360px;
+  }
+  .about-header{
+    font-size:45px;
+  }
+  .about-description{
+    max-width:550px;
+  }
+  #Projects-section >h1{
+    font-size:50px;
+  }
+  .project-info{
+   font-size:15px;
+  }
+  /*Contact me section*/
+  .contact-header{
+    font-size: 45px;
+  padding-top:30px;
+  }
+  .contact-form {
+      width:370px;
+    }
+  }
+ 
+  @media screen and (max-width:1024px){
+    #Contact-section{
+      margin-top:0px;
+      padding-top:0px;
+    }
+  }
