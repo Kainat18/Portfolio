@@ -36,7 +36,11 @@ const [state, handleSubmit] = useForm("mbjvndrk");
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting} className="submit-button">
+      <button 
+      type="submit" 
+      disabled={state.submitting} 
+      className="submit-button"
+      >
         Submit
       </button>
     </form>
