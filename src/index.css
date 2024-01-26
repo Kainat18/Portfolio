@@ -71,7 +71,8 @@ background: linear-gradient( to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 
 background-clip:text;
 }
 .mobile-menu {
-display: none;cursor:pointer; 
+display: none;
+cursor:pointer; 
 }
 
 /*Homepage styling*/
@@ -204,6 +205,7 @@ color:white;
 margin-bottom: 15px;
   }
 .Resume-btn{
+font-size:20px;
 background: transparent;
 margin-top:10px;
 width:130px;
@@ -218,9 +220,11 @@ cursor: pointer;
 font-family: "Karla" , sans-serif;
 box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4); 
 }
-.Resume-btn{
-  font-size:18px;
-}
+/* .resume-link{
+  border-image: linear-gradient(to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 83), rgb(235, 83, 83)); 
+  border-image-slice: 1;
+  background-clip: padding-box;
+} */
 /*Projects styling*/
 
 #Projects-section{
@@ -261,7 +265,7 @@ box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0
 }
 
 .image-container {
-position:relatie;
+position:relative;
 display:flex;
 justify-content: center;
 align-items: center;
@@ -459,6 +463,10 @@ border-radius: 40px;
 font-size: 27px;
 box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4);
 }
+.fa-solid.fa-envelope{
+  font-size: 25px;
+  padding: 0.863rem 0.857rem;
+}
 /*responsive styling*/
 @media only screen and (max-width: 500px) {
   #navbar{
@@ -537,6 +545,10 @@ box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0
   border-radius: 50%;
   font-size: 20px;
   box-shadow: -2px -2px 4px rgba(46,45,45,.4), 4px 4px 4px rgba(0,0,0,.4), inset 0 0 0 hsla(0,0%,100%,.2), inset 0 0 0 rgba(0,0,0,.4);
+  }
+  .fa-solid.fa-envelope.email{
+    font-size: 18px;
+    padding: 0.86rem 0.789rem;
   }
   .contact-form{
   max-width:300px;

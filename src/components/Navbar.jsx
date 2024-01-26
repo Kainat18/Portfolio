@@ -24,7 +24,7 @@ function Navbar() {
        <li className="nav-links"><a href="#" className="a">Home</a></li>
         <li className="nav-links"><a href="#about-section" className="a">About</a></li>
         <li className="nav-links"><a href="#Projects-section" className="a">Projects</a></li>
-        <li className="nav-links"><a href="#" className="a">Resume</a></li>
+        <li className="nav-links"><a href="https://drive.google.com/file/d/1GMhvOI8uI7Jyx3FHfk_ak4V-YPOzKH99/view?usp=sharing" target="_blank" className="a">Resume</a></li>
         <li className="nav-links"><a href="#Contact-section" className="a">Contact</a></li>
        </ul>
 
@@ -55,7 +55,7 @@ function Navbar() {
         </div>
         <div className="social-icons">
          <a href="www.linkedin.com/in/kainat-farooq-6097b21b3" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
-         <a href="https://twitter.com/KainatFarooq20" target="_blank"><i className="fa-brands fa-square-x-twitter"></i></a>
+         <a href="mailto:kainatfarooqmunara@gmail.com" target="_blank"><i className="fa-solid fa-envelope email"></i></a>
          <a href="https://github.com/Kainat18" target="_blank">  <i className="fa-brands fa-square-github"></i></a>
         </div> 
         </motion.div>
