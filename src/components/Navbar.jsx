@@ -46,7 +46,7 @@ function Navbar() {
           <a href="#Projects-section" className="a" onClick={closeMobileMenu}>
             Projects
           </a>
-          <a href="#" className="a" onClick={closeMobileMenu}>
+          <a href="https://drive.google.com/file/d/1GMhvOI8uI7Jyx3FHfk_ak4V-YPOzKH99/view?usp=sharing" target="_blank" className="a" onClick={closeMobileMenu}>
             Resume
           </a>
           <a href="#Contact-section" className="a" onClick={closeMobileMenu}>
