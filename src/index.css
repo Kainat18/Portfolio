@@ -19,6 +19,7 @@ body {
   right: 0;
   z-index: 1000;
   transition: rgb(19, 18, 18) 0.3s ease;
+  gap:10px;
 }
 .nav-container {
   background-color: rgba(179, 179, 179, 0.1);
@@ -66,7 +67,7 @@ body {
 .logo {
   font-family: "Cookie", cursive;
   font-size: 35px;
-  margin-left: 20px;
+  margin-left: 15px;
   font-weight: light;
   background: linear-gradient(
     to right,
@@ -78,6 +79,8 @@ body {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  z-index:1000;
+  margin-top:13px;
 }
 .mobile-menu {
   display: none;
@@ -253,11 +256,7 @@ body {
     4px 4px 4px rgba(0, 0, 0, 0.4), inset 0 0 0 hsla(0, 0%, 100%, 0.2),
     inset 0 0 0 rgba(0, 0, 0, 0.4);
 }
-/* .resume-link{
-  border-image: linear-gradient(to right, #b860b8, rgb(248, 89, 155), rgb(235, 83, 83), rgb(235, 83, 83)); 
-  border-image-slice: 1;
-  background-clip: padding-box;
-} */
+
 /*Projects styling*/
 
 #Projects-section {
@@ -535,7 +534,7 @@ form textarea {
   padding: 0.863rem 0.857rem;
 }
 /*responsive styling*/
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 510px) {
   #navbar {
     margin-top: 0;
   }
@@ -543,7 +542,9 @@ form textarea {
     display: none;
   }
   .logo {
-    font-size: 30px;
+    font-size: 25px;
+    padding:10px 20px;
+    margin-left:0px;
   }
   .mobile-menu {
     display: flex;
@@ -627,6 +628,9 @@ form textarea {
   }
 }
 @media screen and (max-width: 780px) {
+  .logo{
+    font-size: 30px;
+  }
   .intro {
     font-size: 70px;
   }
