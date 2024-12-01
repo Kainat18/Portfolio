@@ -22,7 +22,7 @@ function Homepage() {
       <div className="homepage-bg"></div>
       <div className="homepage-description">
         <h1 className="intro">Hello, I'm Kainat Farooq</h1>
-        <h4>A Front End Developer </h4>
+        <h4>A Junior Software Engineer </h4>
         <p className="intro-quote">
           Unlocking the Web's Wonders, One Project at a Time
         </p>

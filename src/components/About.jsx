@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 function About() {
@@ -11,10 +10,7 @@ function About() {
       <h2 className="about-header">A Little Bit About Me</h2>
       <div className="about-description">
         <p className="description-1">
-          Hello! 👋 I'm Kainat Farooq, a front-end web developer focused on
-          creating engaging and user-friendly experiences while writing clean
-          code. Proficient in HTML, CSS, JavaScript, and ReactJS, I actively
-          embrace modern technologies to craft innovative web solutions.{" "}
+        Hello! 👋 I’m Kainat Farooq, a developer with a passion for creating engaging, user-friendly experiences and writing clean, efficient code. Proficient in front-end technologies like HTML, CSS, JavaScript, and ReactJS, I’ve also gained hands-on experience in backend development. I embrace modern tools and frameworks, continuously learning to deliver innovative and impactful solutions.{" "}
         </p>
         <p className="description-2">
           Always willing to collaborate, engage in fresh discussions, and take
@@ -57,3 +53,5 @@ function About() {
 }
 
 export default About;
+
+

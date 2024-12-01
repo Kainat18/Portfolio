@@ -31,7 +31,7 @@ function Navbar() {
           <li className="nav-links">Projects</li>
         </a>
         <a
-          href="https://drive.google.com/file/d/1GMhvOI8uI7Jyx3FHfk_ak4V-YPOzKH99/view?usp=sharing"
+          href="https://drive.google.com/file/d/1PgYTSTmyl2tJFTmLdA_HkFay_x9Wj9qT/view?usp=sharing"
           target="_blank"
           className="a"
         >
@@ -75,7 +75,7 @@ function Navbar() {
                   Projects
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1GMhvOI8uI7Jyx3FHfk_ak4V-YPOzKH99/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1PgYTSTmyl2tJFTmLdA_HkFay_x9Wj9qT/view?usp=sharing"
                   target="_blank"
                   className="a"
                   onClick={closeMobileMenu}
